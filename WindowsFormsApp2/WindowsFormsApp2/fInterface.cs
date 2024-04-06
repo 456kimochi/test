@@ -66,7 +66,7 @@ namespace WindowsFormsApp2
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            fRegister f = new fRegister();
+            fDangKi f = new fDangKi();
             this.Hide();
             f.ShowDialog();
             this.Show();

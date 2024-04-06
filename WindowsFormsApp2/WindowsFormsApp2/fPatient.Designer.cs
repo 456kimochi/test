@@ -32,19 +32,19 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtDate = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtDia = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtTesRes = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtMedHis = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.panel19 = new System.Windows.Forms.Panel();
@@ -101,26 +101,26 @@
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.textBox3);
+            this.panel6.Controls.Add(this.txtDate);
             this.panel6.Controls.Add(this.label2);
             this.panel6.Location = new System.Drawing.Point(3, 54);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(863, 44);
             this.panel6.TabIndex = 5;
             // 
-            // textBox3
+            // txtDate
             // 
-            this.textBox3.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.textBox3.Location = new System.Drawing.Point(179, 3);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(681, 32);
-            this.textBox3.TabIndex = 1;
+            this.txtDate.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
+            this.txtDate.Location = new System.Drawing.Point(179, 3);
+            this.txtDate.Name = "txtDate";
+            this.txtDate.Size = new System.Drawing.Size(681, 32);
+            this.txtDate.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(5, 6);
+            this.label2.Location = new System.Drawing.Point(3, 10);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(153, 25);
             this.label2.TabIndex = 0;
@@ -128,27 +128,27 @@
             // 
             // panel9
             // 
-            this.panel9.Controls.Add(this.textBox6);
+            this.panel9.Controls.Add(this.txtDia);
             this.panel9.Controls.Add(this.label5);
-            this.panel9.Location = new System.Drawing.Point(3, 304);
+            this.panel9.Location = new System.Drawing.Point(0, 292);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(860, 90);
             this.panel9.TabIndex = 4;
             // 
-            // textBox6
+            // txtDia
             // 
-            this.textBox6.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.textBox6.Location = new System.Drawing.Point(179, 3);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(678, 84);
-            this.textBox6.TabIndex = 1;
+            this.txtDia.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
+            this.txtDia.Location = new System.Drawing.Point(179, 3);
+            this.txtDia.Multiline = true;
+            this.txtDia.Name = "txtDia";
+            this.txtDia.Size = new System.Drawing.Size(678, 84);
+            this.txtDia.TabIndex = 1;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(6, 34);
+            this.label5.Location = new System.Drawing.Point(3, 18);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(122, 25);
             this.label5.TabIndex = 0;
@@ -156,27 +156,27 @@
             // 
             // panel8
             // 
-            this.panel8.Controls.Add(this.textBox5);
+            this.panel8.Controls.Add(this.txtTesRes);
             this.panel8.Controls.Add(this.label4);
-            this.panel8.Location = new System.Drawing.Point(2, 216);
+            this.panel8.Location = new System.Drawing.Point(2, 204);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(861, 82);
             this.panel8.TabIndex = 3;
             // 
-            // textBox5
+            // txtTesRes
             // 
-            this.textBox5.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.textBox5.Location = new System.Drawing.Point(180, 3);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(678, 76);
-            this.textBox5.TabIndex = 1;
+            this.txtTesRes.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
+            this.txtTesRes.Location = new System.Drawing.Point(180, 3);
+            this.txtTesRes.Multiline = true;
+            this.txtTesRes.Name = "txtTesRes";
+            this.txtTesRes.Size = new System.Drawing.Size(678, 76);
+            this.txtTesRes.TabIndex = 1;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(6, 20);
+            this.label4.Location = new System.Drawing.Point(6, 15);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(128, 50);
             this.label4.TabIndex = 0;
@@ -184,27 +184,27 @@
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.textBox4);
+            this.panel7.Controls.Add(this.txtMedHis);
             this.panel7.Controls.Add(this.label3);
             this.panel7.Location = new System.Drawing.Point(2, 104);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(861, 94);
             this.panel7.TabIndex = 2;
             // 
-            // textBox4
+            // txtMedHis
             // 
-            this.textBox4.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.textBox4.Location = new System.Drawing.Point(180, 3);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(678, 81);
-            this.textBox4.TabIndex = 1;
+            this.txtMedHis.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
+            this.txtMedHis.Location = new System.Drawing.Point(180, 3);
+            this.txtMedHis.Multiline = true;
+            this.txtMedHis.Name = "txtMedHis";
+            this.txtMedHis.Size = new System.Drawing.Size(678, 81);
+            this.txtMedHis.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(3, 27);
+            this.label3.Location = new System.Drawing.Point(3, 19);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(171, 25);
             this.label3.TabIndex = 0;
@@ -212,20 +212,20 @@
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.textBox2);
+            this.panel5.Controls.Add(this.txtName);
             this.panel5.Controls.Add(this.label1);
             this.panel5.Location = new System.Drawing.Point(4, 4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(862, 44);
             this.panel5.TabIndex = 0;
             // 
-            // textBox2
+            // txtName
             // 
-            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.textBox2.Location = new System.Drawing.Point(178, 3);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(681, 32);
-            this.textBox2.TabIndex = 1;
+            this.txtName.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
+            this.txtName.Location = new System.Drawing.Point(178, 3);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(681, 32);
+            this.txtName.TabIndex = 1;
             // 
             // label1
             // 
@@ -309,6 +309,7 @@
             this.Name = "fPatient";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bệnh nhân";
+            this.Load += new System.EventHandler(this.fPatient_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
@@ -343,19 +344,19 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtDate;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtDia;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtTesRes;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtMedHis;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label label1;
     }
 }

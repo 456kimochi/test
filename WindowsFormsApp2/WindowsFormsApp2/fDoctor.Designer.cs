@@ -37,13 +37,12 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.lichtrinh = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.specialize = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
             this.name = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.taikhoan = new System.Windows.Forms.TextBox();
+            this.txtPos = new System.Windows.Forms.TextBox();
             this.position = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -52,6 +51,7 @@
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.txtSpe = new System.Windows.Forms.TextBox();
             this.tabinformation.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -161,7 +161,7 @@
             // 
             // panel9
             // 
-            this.panel9.Controls.Add(this.textBox4);
+            this.panel9.Controls.Add(this.txtSpe);
             this.panel9.Controls.Add(this.specialize);
             this.panel9.Location = new System.Drawing.Point(3, 134);
             this.panel9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -169,15 +169,6 @@
             this.panel9.Size = new System.Drawing.Size(792, 57);
             this.panel9.TabIndex = 14;
             this.panel9.UseWaitCursor = true;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(140, 20);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(649, 22);
-            this.textBox4.TabIndex = 1;
-            this.textBox4.UseWaitCursor = true;
             // 
             // specialize
             // 
@@ -192,7 +183,7 @@
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.textBox2);
+            this.panel7.Controls.Add(this.txtName);
             this.panel7.Controls.Add(this.name);
             this.panel7.Location = new System.Drawing.Point(3, 4);
             this.panel7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -201,14 +192,14 @@
             this.panel7.TabIndex = 12;
             this.panel7.UseWaitCursor = true;
             // 
-            // textBox2
+            // txtName
             // 
-            this.textBox2.Location = new System.Drawing.Point(138, 20);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(651, 22);
-            this.textBox2.TabIndex = 1;
-            this.textBox2.UseWaitCursor = true;
+            this.txtName.Location = new System.Drawing.Point(138, 20);
+            this.txtName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(651, 22);
+            this.txtName.TabIndex = 1;
+            this.txtName.UseWaitCursor = true;
             // 
             // name
             // 
@@ -223,7 +214,7 @@
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.taikhoan);
+            this.panel6.Controls.Add(this.txtPos);
             this.panel6.Controls.Add(this.position);
             this.panel6.Location = new System.Drawing.Point(3, 69);
             this.panel6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -232,14 +223,14 @@
             this.panel6.TabIndex = 11;
             this.panel6.UseWaitCursor = true;
             // 
-            // taikhoan
+            // txtPos
             // 
-            this.taikhoan.Location = new System.Drawing.Point(140, 20);
-            this.taikhoan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.taikhoan.Name = "taikhoan";
-            this.taikhoan.Size = new System.Drawing.Size(649, 22);
-            this.taikhoan.TabIndex = 1;
-            this.taikhoan.UseWaitCursor = true;
+            this.txtPos.Location = new System.Drawing.Point(140, 20);
+            this.txtPos.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtPos.Name = "txtPos";
+            this.txtPos.Size = new System.Drawing.Size(649, 22);
+            this.txtPos.TabIndex = 1;
+            this.txtPos.UseWaitCursor = true;
             // 
             // position
             // 
@@ -329,6 +320,15 @@
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.UseWaitCursor = true;
             // 
+            // txtSpe
+            // 
+            this.txtSpe.Location = new System.Drawing.Point(138, 18);
+            this.txtSpe.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtSpe.Name = "txtSpe";
+            this.txtSpe.Size = new System.Drawing.Size(649, 22);
+            this.txtSpe.TabIndex = 2;
+            this.txtSpe.UseWaitCursor = true;
+            // 
             // fDoctor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -338,6 +338,7 @@
             this.Name = "fDoctor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fDoctor";
+            this.Load += new System.EventHandler(this.fDoctor_Load);
             this.tabinformation.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
@@ -368,13 +369,12 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label lichtrinh;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label specialize;
         private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label name;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.TextBox taikhoan;
+        private System.Windows.Forms.TextBox txtPos;
         private System.Windows.Forms.Label position;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Panel panel2;
@@ -383,5 +383,6 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox txtSpe;
     }
 }

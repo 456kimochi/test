@@ -54,9 +54,31 @@ namespace WindowsFormsApp2
                 if (list.userName == textAcc.Text)
                 {
                     FirebaseResponse accRes = await client.GetTaskAsync("Account/" + list.type + "/" + list.userName);
-                    Taikhoan acc = accRes.ResultAs<Taikhoan>();
+                    Taikhoan acc = null;
+                    if (list.type == "Admin")
+                    {
+                       acc = accRes.ResultAs<Admin>();
+                    }
+                    else if(list.type == "Doctor")
+                    {
+                        acc = accRes.ResultAs<Doctor>();
+                    }
+                    else
+                    {
+                        acc = accRes.ResultAs<Patient>();
+                    }
+
                     if (acc.password == textPass.Text)
                     {
+                        var data = new Taikhoan
+                        {
+                            userName = acc.userName,
+                            password = acc.password,
+                            type = acc.type,
+                            displayName = acc.displayName,
+                        };
+                        SetResponse curSet = await client.SetTaskAsync("CurrentAccount/", data);
+
                         if (acc.type == "Admin")
                         {
                             fInterface f = new fInterface();
