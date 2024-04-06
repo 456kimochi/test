@@ -35,16 +35,12 @@
             this.panelAcc = new System.Windows.Forms.Panel();
             this.textAcc = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.panelPosition = new System.Windows.Forms.Panel();
-            this.textPosition = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.btnListAcc = new System.Windows.Forms.Button();
             this.btnChangePass = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.panelName.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelAcc.SuspendLayout();
-            this.panelPosition.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelName
@@ -111,33 +107,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Tên đăng nhập:";
             // 
-            // panelPosition
-            // 
-            this.panelPosition.Controls.Add(this.textPosition);
-            this.panelPosition.Controls.Add(this.label3);
-            this.panelPosition.Location = new System.Drawing.Point(322, 219);
-            this.panelPosition.Name = "panelPosition";
-            this.panelPosition.Size = new System.Drawing.Size(457, 60);
-            this.panelPosition.TabIndex = 15;
-            // 
-            // textPosition
-            // 
-            this.textPosition.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textPosition.Location = new System.Drawing.Point(191, 12);
-            this.textPosition.Name = "textPosition";
-            this.textPosition.Size = new System.Drawing.Size(263, 34);
-            this.textPosition.TabIndex = 1;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(14, 21);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 25);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Chức vụ:";
-            // 
             // btnListAcc
             // 
             this.btnListAcc.Location = new System.Drawing.Point(26, 333);
@@ -179,17 +148,15 @@
             this.Controls.Add(this.panelName);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panelAcc);
-            this.Controls.Add(this.panelPosition);
             this.Name = "fAccManagementforAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tài khoản";
+            this.Load += new System.EventHandler(this.fAccManagementforAdmin_Load);
             this.panelName.ResumeLayout(false);
             this.panelName.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelAcc.ResumeLayout(false);
             this.panelAcc.PerformLayout();
-            this.panelPosition.ResumeLayout(false);
-            this.panelPosition.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -203,9 +170,6 @@
         private System.Windows.Forms.Panel panelAcc;
         private System.Windows.Forms.TextBox textAcc;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Panel panelPosition;
-        private System.Windows.Forms.TextBox textPosition;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnListAcc;
         private System.Windows.Forms.Button btnChangePass;
         private System.Windows.Forms.Button btnExit;

@@ -45,5 +45,13 @@ namespace WindowsFormsApp2
             txtPos.Text = doc.position;
             txtSpe.Text = doc.specialization;
         }
+
+        private void btnChangePass_Click(object sender, EventArgs e)
+        {
+            fChangePassword f = new fChangePassword();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
     }
 }

@@ -37,6 +37,7 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.lichtrinh = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.txtSpe = new System.Windows.Forms.TextBox();
             this.specialize = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.txtName = new System.Windows.Forms.TextBox();
@@ -51,7 +52,7 @@
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.txtSpe = new System.Windows.Forms.TextBox();
+            this.btnChangePass = new System.Windows.Forms.Button();
             this.tabinformation.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -79,6 +80,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.btnChangePass);
             this.tabPage1.Controls.Add(this.panel3);
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -97,7 +99,7 @@
             this.panel3.Controls.Add(this.panel9);
             this.panel3.Controls.Add(this.panel7);
             this.panel3.Controls.Add(this.panel6);
-            this.panel3.Location = new System.Drawing.Point(14, 4);
+            this.panel3.Location = new System.Drawing.Point(6, 4);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(798, 269);
@@ -169,6 +171,15 @@
             this.panel9.Size = new System.Drawing.Size(792, 57);
             this.panel9.TabIndex = 14;
             this.panel9.UseWaitCursor = true;
+            // 
+            // txtSpe
+            // 
+            this.txtSpe.Location = new System.Drawing.Point(138, 18);
+            this.txtSpe.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtSpe.Name = "txtSpe";
+            this.txtSpe.Size = new System.Drawing.Size(649, 22);
+            this.txtSpe.TabIndex = 2;
+            this.txtSpe.UseWaitCursor = true;
             // 
             // specialize
             // 
@@ -320,14 +331,15 @@
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.UseWaitCursor = true;
             // 
-            // txtSpe
+            // btnChangePass
             // 
-            this.txtSpe.Location = new System.Drawing.Point(138, 18);
-            this.txtSpe.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtSpe.Name = "txtSpe";
-            this.txtSpe.Size = new System.Drawing.Size(649, 22);
-            this.txtSpe.TabIndex = 2;
-            this.txtSpe.UseWaitCursor = true;
+            this.btnChangePass.Location = new System.Drawing.Point(57, 297);
+            this.btnChangePass.Name = "btnChangePass";
+            this.btnChangePass.Size = new System.Drawing.Size(128, 68);
+            this.btnChangePass.TabIndex = 1;
+            this.btnChangePass.Text = "Đổi mật khẩu";
+            this.btnChangePass.UseVisualStyleBackColor = true;
+            this.btnChangePass.Click += new System.EventHandler(this.btnChangePass_Click);
             // 
             // fDoctor
             // 
@@ -384,5 +396,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox txtSpe;
+        private System.Windows.Forms.Button btnChangePass;
     }
 }

@@ -42,5 +42,13 @@ namespace WindowsFormsApp2
             txtMedHis.Text = pat.medicalHistory;
             txtTesRes.Text = pat.testingResult;
         }
+
+        private void btnChangePass_Click(object sender, EventArgs e)
+        {
+            fChangePassword f = new fChangePassword();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
     }
 }

@@ -53,6 +53,7 @@
             this.dtpFromDate = new System.Windows.Forms.DateTimePicker();
             this.panel20 = new System.Windows.Forms.Panel();
             this.dgv = new System.Windows.Forms.DataGridView();
+            this.btnChangePass = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -89,6 +90,7 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.btnChangePass);
             this.panel3.Controls.Add(this.panel6);
             this.panel3.Controls.Add(this.panel9);
             this.panel3.Controls.Add(this.panel8);
@@ -132,7 +134,7 @@
             this.panel9.Controls.Add(this.label5);
             this.panel9.Location = new System.Drawing.Point(0, 292);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(860, 90);
+            this.panel9.Size = new System.Drawing.Size(860, 45);
             this.panel9.TabIndex = 4;
             // 
             // txtDia
@@ -141,14 +143,14 @@
             this.txtDia.Location = new System.Drawing.Point(179, 3);
             this.txtDia.Multiline = true;
             this.txtDia.Name = "txtDia";
-            this.txtDia.Size = new System.Drawing.Size(678, 84);
+            this.txtDia.Size = new System.Drawing.Size(678, 27);
             this.txtDia.TabIndex = 1;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(3, 18);
+            this.label5.Location = new System.Drawing.Point(9, 5);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(122, 25);
             this.label5.TabIndex = 0;
@@ -300,6 +302,16 @@
             this.dgv.Size = new System.Drawing.Size(759, 389);
             this.dgv.TabIndex = 0;
             // 
+            // btnChangePass
+            // 
+            this.btnChangePass.Location = new System.Drawing.Point(48, 343);
+            this.btnChangePass.Name = "btnChangePass";
+            this.btnChangePass.Size = new System.Drawing.Size(128, 68);
+            this.btnChangePass.TabIndex = 6;
+            this.btnChangePass.Text = "Đổi mật khẩu";
+            this.btnChangePass.UseVisualStyleBackColor = true;
+            this.btnChangePass.Click += new System.EventHandler(this.btnChangePass_Click);
+            // 
             // fPatient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -358,5 +370,6 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnChangePass;
     }
 }
