@@ -2,16 +2,27 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using FireSharp.Config;
+using FireSharp.Interfaces;
+using FireSharp.Response;
 
 namespace WindowsFormsApp2
 {
     public partial class fLogin : Form
     {
+        IFirebaseConfig config = new FirebaseConfig
+        {
+            AuthSecret = "kyOX4xGT5lOI4AZXgxF1XfOXFEGMGTjDLTF10DGq",
+            BasePath = "https://test2-70b80-default-rtdb.firebaseio.com/"
+        };
+
+        IFirebaseClient client;
         public fLogin()
         {
             InitializeComponent();
@@ -29,12 +40,50 @@ namespace WindowsFormsApp2
             this.Show();
 
         }
-        private void dangnhap_Click(object sender, EventArgs e)
+        private async void dangnhap_Click(object sender, EventArgs e)
         {
-            fInterface f = new fInterface();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
+            FirebaseResponse response = await client.GetTaskAsync("Counter/Total");
+
+            Counter cnt = response.ResultAs<Counter>();
+
+
+            for (int i=0; i < cnt.cnt; i++)
+            {
+                FirebaseResponse listRes = await client.GetTaskAsync("AccountList/"+i);
+                AccountList list = listRes.ResultAs<AccountList>();
+                if (list.userName == textAcc.Text)
+                {
+                    FirebaseResponse accRes = await client.GetTaskAsync("Account/" + list.type + "/" + list.userName);
+                    Taikhoan acc = accRes.ResultAs<Taikhoan>();
+                    if (acc.password == textPass.Text)
+                    {
+                        if (acc.type == "Admin")
+                        {
+                            fInterface f = new fInterface();
+                            this.Hide();
+                            f.ShowDialog();
+                            this.Show();    
+                        }
+                        else if (acc.type == "Doctor")
+                        {
+                            fDoctor f = new fDoctor();
+                            this.Hide();
+                            f.ShowDialog();
+                            this.Show();
+                        }
+                        else{
+                            fPatient f = new fPatient();
+                            this.Hide();
+                            f.ShowDialog();
+                            this.Show();
+                        }
+                        return;
+                    }
+                    MessageBox.Show("Sai mật khẩu");
+                    return;
+                }
+            }
+            MessageBox.Show("Tài khoản không tồn tại");
 
         }
 
@@ -48,7 +97,7 @@ namespace WindowsFormsApp2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            client = new FireSharp.FirebaseClient(config);
         }
     }
 }

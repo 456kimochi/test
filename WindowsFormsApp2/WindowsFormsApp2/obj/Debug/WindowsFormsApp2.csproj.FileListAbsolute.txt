@@ -110,3 +110,10 @@ C:\Users\ADMIN\Desktop\project\test\test\WindowsFormsApp2\WindowsFormsApp2\obj\D
 C:\Users\ADMIN\Desktop\project\test\test\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
 C:\Users\ADMIN\Desktop\project\test\test\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
 C:\Users\ADMIN\Desktop\project\test\test\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\ADMIN\Desktop\project\test\test\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\FireSharp.dll
+C:\Users\ADMIN\Desktop\project\test\test\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\FireSharp.Serialization.JsonNet.dll
+C:\Users\ADMIN\Desktop\project\test\test\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\Desktop\project\test\test\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\RestSharp.dll
+C:\Users\ADMIN\Desktop\project\test\test\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\Desktop\project\test\test\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\RestSharp.xml
+C:\Users\ADMIN\Desktop\project\test\test\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CopyComplete

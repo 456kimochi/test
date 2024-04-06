@@ -162,7 +162,7 @@
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(154, 61);
             this.btnRegister.TabIndex = 5;
-            this.btnRegister.Text = "Mở tài khoản:";
+            this.btnRegister.Text = "Mở tài khoản";
             this.btnRegister.UseVisualStyleBackColor = true;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
