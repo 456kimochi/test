@@ -31,6 +31,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btnChangePass = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.txtDate = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -53,7 +54,6 @@
             this.dtpFromDate = new System.Windows.Forms.DateTimePicker();
             this.panel20 = new System.Windows.Forms.Panel();
             this.dgv = new System.Windows.Forms.DataGridView();
-            this.btnChangePass = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -101,6 +101,16 @@
             this.panel3.Size = new System.Drawing.Size(866, 419);
             this.panel3.TabIndex = 6;
             // 
+            // btnChangePass
+            // 
+            this.btnChangePass.Location = new System.Drawing.Point(48, 343);
+            this.btnChangePass.Name = "btnChangePass";
+            this.btnChangePass.Size = new System.Drawing.Size(128, 68);
+            this.btnChangePass.TabIndex = 6;
+            this.btnChangePass.Text = "Đổi mật khẩu";
+            this.btnChangePass.UseVisualStyleBackColor = true;
+            this.btnChangePass.Click += new System.EventHandler(this.btnChangePass_Click);
+            // 
             // panel6
             // 
             this.panel6.Controls.Add(this.txtDate);
@@ -122,7 +132,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(3, 10);
+            this.label2.Location = new System.Drawing.Point(3, 6);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(153, 25);
             this.label2.TabIndex = 0;
@@ -150,7 +160,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(9, 5);
+            this.label5.Location = new System.Drawing.Point(3, 3);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(122, 25);
             this.label5.TabIndex = 0;
@@ -178,7 +188,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(6, 15);
+            this.label4.Location = new System.Drawing.Point(1, 6);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(128, 50);
             this.label4.TabIndex = 0;
@@ -206,7 +216,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(3, 19);
+            this.label3.Location = new System.Drawing.Point(1, 6);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(171, 25);
             this.label3.TabIndex = 0;
@@ -233,7 +243,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(5, 6);
+            this.label1.Location = new System.Drawing.Point(3, 6);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 25);
             this.label1.TabIndex = 0;
@@ -301,16 +311,6 @@
             this.dgv.RowTemplate.Height = 24;
             this.dgv.Size = new System.Drawing.Size(759, 389);
             this.dgv.TabIndex = 0;
-            // 
-            // btnChangePass
-            // 
-            this.btnChangePass.Location = new System.Drawing.Point(48, 343);
-            this.btnChangePass.Name = "btnChangePass";
-            this.btnChangePass.Size = new System.Drawing.Size(128, 68);
-            this.btnChangePass.TabIndex = 6;
-            this.btnChangePass.Text = "Đổi mật khẩu";
-            this.btnChangePass.UseVisualStyleBackColor = true;
-            this.btnChangePass.Click += new System.EventHandler(this.btnChangePass_Click);
             // 
             // fPatient
             // 

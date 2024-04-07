@@ -1,4 +1,7 @@
-﻿using System;
+﻿using FireSharp.Config;
+using FireSharp.Interfaces;
+using FireSharp.Response;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +15,13 @@ namespace WindowsFormsApp2
 {
     public partial class Account : Form
     {
+        IFirebaseConfig config = new FirebaseConfig
+        {
+            AuthSecret = "kyOX4xGT5lOI4AZXgxF1XfOXFEGMGTjDLTF10DGq",
+            BasePath = "https://test2-70b80-default-rtdb.firebaseio.com/"
+        };
+
+        IFirebaseClient client;
         public Account()
         {
             InitializeComponent();
@@ -28,9 +38,18 @@ namespace WindowsFormsApp2
             this.Show();
         }
 
-        private void Tai_Load(object sender, EventArgs e)
+        private async void Tai_Load(object sender, EventArgs e)
         {
+            client = new FireSharp.FirebaseClient(config);
+            FirebaseResponse curRes = await client.GetTaskAsync("CurrentAccount");
+            Taikhoan acc = curRes.ResultAs<Taikhoan>();
 
+            FirebaseResponse docRes = await client.GetTaskAsync("Account/" + acc.type + "/" + acc.userName);
+            Taikhoan admin = docRes.ResultAs<Taikhoan>();
+
+            textName.Text = admin.displayName;
+            textAcc.Text = admin.userName;
+            textType.Text = admin.type;
         }
     }
 }

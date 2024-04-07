@@ -283,7 +283,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "fListAcc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Danh sách tài khoản quản trị";
+            this.Text = "Danh sách tài khoản";
             this.Load += new System.EventHandler(this.fListAcc_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

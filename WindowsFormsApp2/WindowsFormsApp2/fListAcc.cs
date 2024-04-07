@@ -41,6 +41,11 @@ namespace WindowsFormsApp2
             dt.Columns.Add("password", typeof(string));
             dt.Columns.Add("type", typeof(string));
 
+            dt.Columns["displayName"].ReadOnly = true;
+            dt.Columns["userName"].ReadOnly = true;
+            dt.Columns["password"].ReadOnly = true;
+            dt.Columns["type"].ReadOnly = true;
+
             FirebaseResponse cntGet = await client.GetTaskAsync("Counter/Total");
             Counter cnt = cntGet.ResultAs<Counter>();
 
