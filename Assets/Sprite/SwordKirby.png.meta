@@ -1,0 +1,976 @@
+fileFormatVersion: 2
+guid: f1b77b0e8646ab242acb4b89fa4cda02
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SwordKirby_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 184
+        width: 27
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0d8d9b5b23013499909a575434d0dd
+      internalID: 1566471920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 183
+        width: 27
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8350b72a42a3ca4bb17dea2ae79a2dc
+      internalID: -1278029412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 128
+        width: 30
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045c17a943a6c754184bab6cfefedba5
+      internalID: -1486800306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 128
+        width: 30
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0ba9ef4187a5b42b389915db2049e4
+      internalID: -305665892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_4
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 128
+        width: 27
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7775556ab40dd4f4c8fa4f16f113435f
+      internalID: -988976701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_5
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 128
+        width: 25
+        height: 40
+      alignment: 9
+      pivot: {x: 0.6687839, y: 0.05166893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96aa1ea3b7b91e74fa010a4e74d4ff0e
+      internalID: -408574238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_6
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 128
+        width: 25
+        height: 40
+      alignment: 9
+      pivot: {x: 0.6898822, y: 0.104413986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae47b21c7d8483b4886d980a17a584c6
+      internalID: 1787578004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 127
+        width: 31
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5850727, y: 0.07144785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51ab026ae8860041a45ea144c87533d
+      internalID: -452428767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 81
+        width: 31
+        height: 37
+      alignment: 9
+      pivot: {x: 0.70417345, y: 0.058083404}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ae1a52c0a42954799017c509323226
+      internalID: 1966374185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_9
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 81
+        width: 32
+        height: 37
+      alignment: 9
+      pivot: {x: 0.6648278, y: 0.07233862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458bd67682cff6a4d9720bd82c59a994
+      internalID: -430968017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 81
+        width: 32
+        height: 37
+      alignment: 9
+      pivot: {x: 0.7142768, y: 0.07233862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0a60b7ca102b342ad3b7432ea28383
+      internalID: 1046131574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_11
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 81
+        width: 28
+        height: 38
+      alignment: 9
+      pivot: {x: 0.6506996, y: 0.041952234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1d3576ce10c9d4ab0bc103e4f87de9
+      internalID: 1290877328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_12
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 81
+        width: 24
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5879078, y: 0.040173262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3461d0c8b623a345b5708b3b282c866
+      internalID: -859530371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 81
+        width: 23
+        height: 38
+      alignment: 9
+      pivot: {x: 0.6375958, y: 0.041952234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d450c79a181a08448ebdf2401746257
+      internalID: -1775923490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_14
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 81
+        width: 23
+        height: 40
+      alignment: 9
+      pivot: {x: 0.6834624, y: 0.038482476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867846cfd67d4f34baf1bad7e4c7ad1a
+      internalID: -385992692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_15
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 81
+        width: 28
+        height: 41
+      alignment: 9
+      pivot: {x: 0.6883752, y: 0.049739372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a4bfe78ce70f542aca23189030bcbb
+      internalID: -1411917784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_16
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 81
+        width: 27
+        height: 41
+      alignment: 9
+      pivot: {x: 0.6172112, y: 0.062603645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63677aba72bfb234d9b478ade40d2421
+      internalID: -449736010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_17
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 81
+        width: 25
+        height: 39
+      alignment: 9
+      pivot: {x: 0.6476868, y: 0.06722201}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf9d6af17b9c024ba81fe985a69f0f7
+      internalID: -1635788356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_18
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 81
+        width: 25
+        height: 38
+      alignment: 9
+      pivot: {x: 0.6687842, y: 0.014191678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359c3bf15ddc24648b0f4a6696b26cdb
+      internalID: -1621749197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_19
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 81
+        width: 28
+        height: 37
+      alignment: 9
+      pivot: {x: 0.72605026, y: 0.058084022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17670ac59a548341a17b07df96ae0b2
+      internalID: -1244980949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 25
+        width: 29
+        height: 37
+      alignment: 9
+      pivot: {x: 0.64550287, y: 0.07233913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6615c8d108a1a824888eb65f6c5d3e02
+      internalID: -1182077440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 25
+        width: 31
+        height: 35
+      alignment: 9
+      pivot: {x: 0.73820215, y: 0.10818105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e87e987ff74c344b08de7f69871911
+      internalID: 817953133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_22
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 25
+        width: 31
+        height: 33
+      alignment: 9
+      pivot: {x: 0.75521725, y: 0.08443411}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee7014e417e75e4d90a0e860ed96717
+      internalID: -1308022182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_23
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 25
+        width: 39
+        height: 27
+      alignment: 9
+      pivot: {x: 0.7704867, y: 0.14836714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5b122e82e26e240bb2e94bca32794c
+      internalID: 1178340888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_24
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 25
+        width: 41
+        height: 22
+      alignment: 9
+      pivot: {x: 0.7958865, y: 0.14037618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3c28bd9e545f24dac8456544183b3d
+      internalID: -1096967079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_25
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 25
+        width: 54
+        height: 32
+      alignment: 9
+      pivot: {x: 0.6855842, y: 0.104414105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5189548fb60507f40a4a2fb27dd4607d
+      internalID: -1194503363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_26
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 25
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.4386696, y: 0.07233913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d38e8c0324edf438c4b39e0386c39f
+      internalID: 326726109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_27
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 25
+        width: 41
+        height: 35
+      alignment: 9
+      pivot: {x: 0.3970843, y: 0.047901046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb511dffd86fb54aada20557a369801
+      internalID: 809100842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_28
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 13
+        width: 63
+        height: 48
+      alignment: 9
+      pivot: {x: 0.22371855, y: 0.30220678}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58a3a4df13862445b5d7d55abf842b2
+      internalID: 101967525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_29
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 12
+        width: 61
+        height: 49
+      alignment: 9
+      pivot: {x: 0.1887202, y: 0.3277714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2070d1daee8274290fc233ccd11132
+      internalID: -317980043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_30
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 11
+        width: 37
+        height: 51
+      alignment: 9
+      pivot: {x: 0.35744828, y: 0.29315746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5dac21521148e148930e6df52581eef
+      internalID: -896296104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_35
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 13
+        width: 38
+        height: 41
+      alignment: 9
+      pivot: {x: 0.34731895, y: 0.26843745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d47cf63078991449279d91dfa032e2
+      internalID: -769624530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 17
+        width: 52
+        height: 38
+      alignment: 9
+      pivot: {x: 0.711684, y: 0.17722365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7788b8c92c70e0f4a80b6101b5a992df
+      internalID: -503132568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_37
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 25
+        width: 42
+        height: 29
+      alignment: 9
+      pivot: {x: 0.72464424, y: 0.05536191}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aed293625001be42a19d37338e46e59
+      internalID: 1489761126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_38
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 25
+        width: 37
+        height: 30
+      alignment: 9
+      pivot: {x: 0.7124997, y: 0.049216334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d03e1a4c1bf0b3469d0f7e19482dc82
+      internalID: 899787487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordKirby_39
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 25
+        width: 34
+        height: 36
+      alignment: 9
+      pivot: {x: 0.6480031, y: 0.045721848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d5108a1528b2b4b91d924a7ce423e4
+      internalID: -537657412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SwordKirby_0: 1566471920
+      SwordKirby_1: -1278029412
+      SwordKirby_10: 1046131574
+      SwordKirby_11: 1290877328
+      SwordKirby_12: -859530371
+      SwordKirby_13: -1775923490
+      SwordKirby_14: -385992692
+      SwordKirby_15: -1411917784
+      SwordKirby_16: -449736010
+      SwordKirby_17: -1635788356
+      SwordKirby_18: -1621749197
+      SwordKirby_19: -1244980949
+      SwordKirby_2: -1486800306
+      SwordKirby_20: -1182077440
+      SwordKirby_21: 817953133
+      SwordKirby_22: -1308022182
+      SwordKirby_23: 1178340888
+      SwordKirby_24: -1096967079
+      SwordKirby_25: -1194503363
+      SwordKirby_26: 326726109
+      SwordKirby_27: 809100842
+      SwordKirby_28: 101967525
+      SwordKirby_29: -317980043
+      SwordKirby_3: -305665892
+      SwordKirby_30: -896296104
+      SwordKirby_31: -551189818
+      SwordKirby_32: 1786844828
+      SwordKirby_33: 2026628775
+      SwordKirby_34: -1299202734
+      SwordKirby_35: -769624530
+      SwordKirby_36: -503132568
+      SwordKirby_37: 1489761126
+      SwordKirby_38: 899787487
+      SwordKirby_39: -537657412
+      SwordKirby_4: -988976701
+      SwordKirby_40: -349081066
+      SwordKirby_5: -408574238
+      SwordKirby_6: 1787578004
+      SwordKirby_7: -452428767
+      SwordKirby_8: 1966374185
+      SwordKirby_9: -430968017
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
